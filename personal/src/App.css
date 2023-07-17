@@ -1,5 +1,14 @@
 .App {
-  font-family: 'Nanum Pen Script', cursive;
+  font-family: 'Amatic SC', cursive;
+  font-size: x-large;
+}
+
+.Header {
+  background-color: #293337;
+  color: white;
+  display: flex;
+align-items: center;
+justify-content: space-around;
 }
 
 h1 {
@@ -10,7 +19,7 @@ h2 {
   text-align: center;
   padding-top: 50px;
   padding-bottom: 50px;
-  background-image: url("../public/images/snowy-road-in-the-forest-picjumbo-com.jpg");
+  background-image: url('./images/snowy-road-in-the-forest-picjumbo-com.jpg');
   background-size: cover;
 }
 
@@ -19,8 +28,8 @@ p {
   padding-right: 30%;
 }
 
-h4 {
-text-align: center;
+h3 {
+  text-align: center;
 }
 
 h5 {
@@ -31,4 +40,73 @@ h5 {
 a {
   padding-left: 30%;
   padding-right: 30%;
+  color: white;
+}
+
+.ab {
+  padding-left: 30%;
+  padding-right: 20%;
+}
+
+.hobbies-list, .experience-list{
+  padding-left: 30%;
+  padding-right: 20%;
+}
+
+.experience-list {
+  display: inline-grid;
+  grid-template-columns: auto auto;
+}
+
+.exp {
+  padding-right: 100px;
+  padding-bottom: 50px;
+}
+
+.hobbies-list img{
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.hr, .mtsu, .apsu{
+  display: inline-grid;
+  grid-template-columns: auto auto;
+}
+
+.hrimg {
+  padding-right: 10px;
+  padding-bottom: 70px;
+  width: 450px;
+}
+
+.mtsuimg {
+  padding-right: 10px;
+  width: 450px;
+}
+
+.apsuinfo {
+  padding-right: 10px;
+  width: 450px;
+}
+
+.apsuinfo {
+  padding-top: 10%;
+}
+
+.mtsuinfo {
+  padding-top: 30%;
+}
+
+span {
+  padding-left: 150px;
+}
+
+.mtsuimg img {
+  height: auto;
+  width: 350px;
+}
+
+.experience, .education, .hobbies {
+  font-weight: bolder;
 }
