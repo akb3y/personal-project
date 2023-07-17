@@ -3,20 +3,32 @@
 }
 
 h1 {
-  text-align: center;
-  padding-top: 100px;
-  font-size: 200px;
+  padding-left: 30px;
 }
 
 h2 {
   text-align: center;
-  padding: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-image: url("../public/images/snowy-road-in-the-forest-picjumbo-com.jpg");
+  background-size: cover;
 }
 
-.about {
-  background: url("https://picjumbo.com/download?d=snowy-road-in-the-forest-free-photo.jpg&n=snowy-road-in-the-forest&id=1");
+p {
+  padding-left: 30%;
+  padding-right: 30%;
 }
 
-.name {
-  background-color: aquamarine;
+h4 {
+text-align: center;
+}
+
+h5 {
+  padding-left: 30%;
+  padding-right: 30%;
+}
+
+a {
+  padding-left: 30%;
+  padding-right: 30%;
 }

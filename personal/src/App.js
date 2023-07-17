@@ -1,13 +1,15 @@
 import './App.css';
 import React from 'react'
 import Header from "./components/header/Header.jsx"
-import Home from './components/middle/Home.jsx'
+import About from './components/middle/About/About.jsx'
+import Projects from './components/middle/Projects.jsx'
+import Contact from './components/middle/Contact.jsx'
 
 class App extends React.Component {
   constructor(){
     super();
     this.state = {
-      page: 'home',
+      page: 'about',
     }
     this.setPage = this.setPage.bind(this)
   }
@@ -17,7 +19,7 @@ class App extends React.Component {
   }
 
 render(){
-let middle = this.state.page === 'home' ? <Home setPage={this.setPage} /> : this.state.page === 'about' ? <p>about</p> : null
+let middle = this.state.page === 'about' ? <About /> : this.state.page === 'project' ? <Projects /> : this.state.page === 'contact' ? <Contact /> : null
 
   return (
     <div className="App">

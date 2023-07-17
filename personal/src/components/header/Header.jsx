@@ -9,17 +9,14 @@ function Header({page, setPage}) {
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#home" onClick={() => setPage('home')}>Home</a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about" onClick={() => setPage('about')}>About Me</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#about" onClick={() => setPage('about')}>About</a>
+                        <a class="nav-link" href="#portfolio" onClick={() => setPage('project')}>My Projects</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#portfolio" onClick={() => setPage('project')}>Projects</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contact" onClick={() => setPage('contact')}>Contact</a>
+                        <a class="nav-link" href="#contact" onClick={() => setPage('contact')}>Contact Me</a>
                     </li>
                 </ul>
 
