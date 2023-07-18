@@ -5,7 +5,7 @@ function Experience() {
   const [isActive, setIsActive] = useState(false)
 
   return (
-<div className="accordion">
+<div className="Experience">
   <div className="accordion-item">
     <div
       className="accordion-title"

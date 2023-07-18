@@ -1,11 +1,18 @@
+html {
+  background-color: #A39493;
+  color: #514A49;
+}
+
 .App {
   font-family: 'Amatic SC', cursive;
   font-size: x-large;
+  background-color: #A39493;
+  color: #514A49;
 }
 
 .Header {
-  background-color: #293337;
-  color: white;
+  background-color: #514A49;
+  color: #EDECEA;
   display: flex;
 align-items: center;
 justify-content: space-around;
@@ -21,35 +28,43 @@ h2 {
   padding-bottom: 50px;
   background-image: url('./images/snowy-road-in-the-forest-picjumbo-com.jpg');
   background-size: cover;
+  font-size: 200% !important;
 }
 
 p {
-  padding-left: 30%;
-  padding-right: 30%;
+  padding-left: 20%;
+  padding-right: 20%;
 }
 
 h3 {
   text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  color: #EDECEA !important;
 }
 
 h5 {
-  padding-left: 30%;
-  padding-right: 30%;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+.Contact {
+  text-align: center;
 }
 
 a {
-  padding-left: 30%;
-  padding-right: 30%;
-  color: white;
+  text-decoration: none !important;
+  color: #EDECEA !important;
+
 }
 
 .ab {
-  padding-left: 30%;
+  padding-left: 20%;
   padding-right: 20%;
 }
 
 .hobbies-list, .experience-list{
-  padding-left: 30%;
+  padding-left: 20%;
   padding-right: 20%;
 }
 
@@ -59,7 +74,7 @@ a {
 }
 
 .exp {
-  padding-right: 100px;
+  padding-right: 150px;
   padding-bottom: 50px;
 }
 
@@ -98,15 +113,33 @@ a {
   padding-top: 30%;
 }
 
-span {
+.Header span {
   padding-left: 150px;
 }
 
 .mtsuimg img {
   height: auto;
   width: 350px;
+  padding-bottom: 30px;
 }
 
 .experience, .education, .hobbies {
   font-weight: bolder;
+  border: #A39493 2px solid;
+
+}
+
+.Experience, .Education, .Hobbies {
+  background-color: #E2DFDE;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.me {
+  height: 500px;
+  width: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 60px;
 }

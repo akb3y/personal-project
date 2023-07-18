@@ -5,7 +5,7 @@ function Education() {
   const [isActive, setIsActive] = useState(false)
 
   return (
-<div className="accordion">
+<div className="Education">
   <div className="accordion-item">
     <div
       className="accordion-title"
