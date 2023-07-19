@@ -2,7 +2,7 @@ import './App.css'
 import React from 'react'
 import Header from './components/header/Header.jsx'
 import About from './components/middle/About/About.jsx'
-import Projects from './components/middle/Projects.jsx'
+import Projects from './components/middle/Projects/Projects.jsx'
 import Contact from './components/middle/Contact.jsx'
 
 class App extends React.Component {
