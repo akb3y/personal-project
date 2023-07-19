@@ -1,4 +1,4 @@
-import Video from '../../../images/Projects/BM/BMVideo.mov'
+import Video from '../../../images/Projects/BM/BMVideo.mp4'
 
 function Brick() {
   return (

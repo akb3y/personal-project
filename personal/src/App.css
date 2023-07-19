@@ -7,7 +7,7 @@ html {
   font-family: 'Amatic SC', cursive;
   font-size: x-large;
   background-color: #A39493;
-  color: #514A49;
+  color: #EDECEA;
 }
 
 .Header {
@@ -29,6 +29,7 @@ h2 {
   background-image: url('./images/snowy-road-in-the-forest-picjumbo-com.jpg');
   background-size: cover;
   font-size: 200% !important;
+  color: #514A49 !important;
 }
 
 p {
@@ -133,7 +134,7 @@ a {
 }
 
 .Experience, .Education, .Hobbies {
-  background-color: #E2DFDE;
+  background-color: #514A49;
   margin-left: 20%;
   margin-right: 20%;
 }

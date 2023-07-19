@@ -1,4 +1,4 @@
-import Video from '../../../images/Projects/GODMODEVideo.mov'
+import Video from '../../../images/Projects/GODMODEVideo.mp4'
 
 function Godmode() {
   return (
