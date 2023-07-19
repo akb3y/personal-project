@@ -6,7 +6,7 @@ class App extends React.Component {
   constructor() {
     super()
     this.state = {
-      mobile: true,
+      mobile: false,
     }
   }
 

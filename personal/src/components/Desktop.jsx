@@ -9,7 +9,6 @@ class Desktop extends React.Component {
     super()
     this.state = {
       page: 'about',
-      mobile: false,
     }
     this.setPage = this.setPage.bind(this)
   }
