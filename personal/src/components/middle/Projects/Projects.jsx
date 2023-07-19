@@ -1,5 +1,6 @@
 import Brick from './Brick'
 import Godmode from './Godmode'
+import Test from './test';
 
 function Projects() {
   return (
@@ -8,6 +9,8 @@ function Projects() {
       <Brick />
       <br />
       <Godmode />
+      <br />
+      <Test />
     </div>
   );
 }
