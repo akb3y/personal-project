@@ -6,6 +6,7 @@ import Typography from '@mui/material/Typography'
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore'
 
 export default function Education() {
+  const listItemStyle = { color: '#EDECEA', fontFamily: "'Amatic SC', cursive" };
   return (
     <Accordion
       sx={{
@@ -20,22 +21,29 @@ export default function Education() {
         // id="panel1a-header"
         sx={{ borderBottom: 2, borderColor: '#A39493' }}
       >
-        <Typography>Education</Typography>
+        <Typography
+                    sx={{
+                      fontFamily: "'Amatic SC', cursive",
+                      color: '#EDECEA',
+                      bgcolor: '#514A49',
+                      fontSize: 30
+                    }}
+        >Education</Typography>
       </AccordionSummary>
       <AccordionDetails sx={{ borderBottom: 2, borderColor: '#A39493' }}>
-        <Typography>
+        <Typography style={listItemStyle}>
           <img src={require('../../../images/HR.jpeg')} style={{width: 250}}alt='HR' />
           Hack Reactor <br />
           Immersive Software Engineer <br />
           February 2022 - May 2022
         </Typography>
-        <Typography>
+        <Typography style={listItemStyle}>
           <img src={require('../../../images/apsu_logo.jpeg')} style={{width: 250}} alt='MTSU' />
           Austin Peay State University <br />
           MS Computer Science and Quantitative Methods <br />
           January 2018 - August 2020
         </Typography>
-        <Typography>
+        <Typography style={listItemStyle}>
           <img src={require('../../../images/mtsu_logo.jpg')} style={{width: 250}} alt='MTSU' />
           Middle Tennessee State University <br />
           BS Sociology <br />

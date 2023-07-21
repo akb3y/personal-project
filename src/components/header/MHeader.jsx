@@ -64,7 +64,7 @@ function MHeader({pag,setPage}) {
                 horizontal: "left",
               }}
               open={Boolean(anchorElNav)}
-              onClose={handleCloseNavMenu}
+              onClose={() => handleCloseNavMenu({page: "About"})}
               sx={{
                 display: { xs: "block", md: "none" },
               }}
