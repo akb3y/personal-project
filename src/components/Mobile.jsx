@@ -2,6 +2,7 @@ import React from 'react'
 import MHeader from './header/MHeader'
 import MAbout from './middle/MAbout/MAbout'
 import MProjects from './middle/MProjects/Mprojects'
+import MContact from './middle/MContact'
 
 class Mobile extends React.Component {
   constructor() {
@@ -23,7 +24,7 @@ class Mobile extends React.Component {
       ) : this.state.page === 'Projects' ? (
         <MProjects />
       ) : this.state.page === 'Contact' ? (
-        <p>Contact</p>
+        <MContact />
       ) : null
 
     return (
