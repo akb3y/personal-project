@@ -23,7 +23,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "lint": "npx prettier . --write"
+    "lint": "npx prettier . --write",
+    "prepare": "husky install"
   },
   "eslintConfig": {
     "extends": [
@@ -48,6 +49,8 @@
     "eslint-config-google": "^0.14.0",
     "eslint-config-prettier": "^8.8.0",
     "eslint-plugin-react": "^7.33.0",
+    "husky": "^8.0.0",
+    "lint-staged": "^13.2.3",
     "prettier": "3.0.0"
   }
 }
