@@ -56,10 +56,18 @@ h5 {
   padding-right: 15%;
 }
 
-.Contact {
+.c {
   text-align: center;
   background-color: #514A49;
-  margin: 100px 700px;
+  margin: 100px 25%;
+  padding: 50px 0px;
+  font-size: 125% !important;
+}
+
+.C {
+  text-align: center;
+  background-color: #514A49;
+  margin: 100px 33%;
   padding: 50px 0px;
   font-size: 125% !important;
 }
@@ -171,9 +179,11 @@ a {
   margin-left: 25%;
 }
 
-video {
-  height: 55vh;
-  width: auto;
-  display: block;
+ video {
+max-width: 90%;
+display: block;
 margin: 0 auto;
 }
+
+
+
