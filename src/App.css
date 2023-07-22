@@ -40,8 +40,8 @@ h2 {
 }
 
 p {
-  padding-left: 20%;
-  padding-right: 20%;
+  padding-left: 15%;
+  padding-right: 15%;
 }
 
 h3 {
@@ -52,8 +52,8 @@ h3 {
 }
 
 h5 {
-  padding-left: 20%;
-  padding-right: 20%;
+  padding-left: 15%;
+  padding-right: 15%;
 }
 
 .Contact {
@@ -71,13 +71,13 @@ a {
 }
 
 .ab {
-  padding-left: 20%;
-  padding-right: 20%;
+  padding-left: 15%;
+  padding-right: 15%;
 }
 
 .hobbies-list, .experience-list{
-  padding-left: 20%;
-  padding-right: 20%;
+  padding-left: 15%;
+  padding-right: 15%;
 }
 
 .experience-list {
@@ -142,8 +142,8 @@ a {
 
 .Experience, .Education, .Hobbies {
   background-color: #514A49;
-  margin-left: 20%;
-  margin-right: 20%;
+  margin-left: 15%;
+  margin-right: 15%;
 }
 
 .me {
@@ -163,7 +163,7 @@ a {
 .pr {
   color: #EDECEA;
   background-color: #514A49;
-  margin: 50px 400px 0px;
+  margin: 50px 100px 0px;
   padding: 30px 0px 50px;
 }
 
