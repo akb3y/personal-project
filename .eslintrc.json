@@ -10,5 +10,6 @@
     "sourceType": "module"
   },
   "plugins": ["react", "jest"],
+  "settings": {"version": "detect"},
   "rules": {}
 }
