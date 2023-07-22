@@ -4,15 +4,22 @@ import Hobbies from './Hobbies'
 
 function About() {
   return (
-    <div className="About">
+    <div className='About'>
       <h2 className='about'>About Me</h2>
-      <h3>Welcome to my page. I am Alisha and I am a frontend engineer in the Boulder, CO area.</h3>
-      <img className="me" src={require('../../../images/alisha Copy Copy Copy.jpg')} alt='Me' />
+      <h3>
+        Welcome to my page. I am Alisha and I am a frontend engineer in the
+        Boulder, CO area.
+      </h3>
+      <img
+        className='me'
+        src={require('../../../images/alisha Copy Copy Copy.jpg')}
+        alt='Me'
+      />
       <Experience />
       <Education />
       <Hobbies />
     </div>
-  );
+  )
 }
 
-export default About;
+export default About

@@ -3,14 +3,14 @@ import Godmode from './Godmode'
 
 function Projects() {
   return (
-    <div className="Projects">
+    <div className='Projects'>
       <h2 className='projects'>My Projects</h2>
       <Brick />
       <br />
       <Godmode />
       <br />
     </div>
-  );
+  )
 }
 
-export default Projects;
+export default Projects

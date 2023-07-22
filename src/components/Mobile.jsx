@@ -29,7 +29,7 @@ class Mobile extends React.Component {
 
     return (
       <div className='App'>
-        <MHeader pag={this.state.page} setPage={this.setPage}/>
+        <MHeader pag={this.state.page} setPage={this.setPage} />
         {middle}
       </div>
     )

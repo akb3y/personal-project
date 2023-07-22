@@ -22,7 +22,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "lint": "npx prettier . --write"
   },
   "eslintConfig": {
     "extends": [
@@ -45,6 +46,8 @@
   "devDependencies": {
     "eslint": "^8.45.0",
     "eslint-config-google": "^0.14.0",
-    "eslint-plugin-react": "^7.33.0"
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-react": "^7.33.0",
+    "prettier": "3.0.0"
   }
 }

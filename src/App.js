@@ -12,24 +12,21 @@ class App extends React.Component {
   }
 
   componentDidMount() {
-    window.addEventListener('resize', this.handleWindowResize);
+    window.addEventListener('resize', this.handleWindowResize)
   }
 
   componentWillUnmount() {
-    window.removeEventListener('resize', this.handleWindowResize);
+    window.removeEventListener('resize', this.handleWindowResize)
   }
 
   handleWindowResize = () => {
-    this.setState({ mobile: window.innerWidth <= 768 });
-  };
+    this.setState({ mobile: window.innerWidth <= 768 })
+  }
 
   render() {
     let view = this.state.mobile ? <Mobile /> : <Desktop />
 
-
-    return (
-        <>{view}</>
-    )
+    return <>{view}</>
   }
 }
 

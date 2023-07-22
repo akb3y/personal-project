@@ -1,14 +1,14 @@
 html {
-  background-color: #A39493;
-  color: #514A49;
+  background-color: #a39493;
+  color: #514a49;
   font-family: 'Amatic SC', cursive;
 }
 
 .App {
   font-family: 'Amatic SC', cursive;
   font-size: x-large;
-  background-color: #A39493;
-  color: #EDECEA;
+  background-color: #a39493;
+  color: #edecea;
   position: fixed;
   top: 0;
   left: 0;
@@ -18,11 +18,11 @@ html {
 }
 
 .Header {
-  background-color: #514A49;
-  color: #EDECEA;
+  background-color: #514a49;
+  color: #edecea;
   display: flex;
-align-items: center;
-justify-content: space-around;
+  align-items: center;
+  justify-content: space-around;
 }
 
 h1 {
@@ -36,7 +36,7 @@ h2 {
   background-image: url('./images/snowy-road-in-the-forest-picjumbo-com.jpg');
   background-size: cover;
   font-size: 200% !important;
-  color: #514A49 !important;
+  color: #514a49 !important;
 }
 
 p {
@@ -48,7 +48,7 @@ h3 {
   text-align: center;
   padding-top: 30px;
   padding-bottom: 30px;
-  color: #EDECEA !important;
+  color: #edecea !important;
 }
 
 h5 {
@@ -58,7 +58,7 @@ h5 {
 
 .c {
   text-align: center;
-  background-color: #514A49;
+  background-color: #514a49;
   margin: 100px 25%;
   padding: 50px 0px;
   font-size: 125% !important;
@@ -66,7 +66,7 @@ h5 {
 
 .C {
   text-align: center;
-  background-color: #514A49;
+  background-color: #514a49;
   margin: 100px 33%;
   padding: 50px 0px;
   font-size: 125% !important;
@@ -74,8 +74,7 @@ h5 {
 
 a {
   text-decoration: none !important;
-  color: #EDECEA !important;
-
+  color: #edecea !important;
 }
 
 .ab {
@@ -83,7 +82,8 @@ a {
   padding-right: 15%;
 }
 
-.hobbies-list, .experience-list{
+.hobbies-list,
+.experience-list {
   padding-left: 15%;
   padding-right: 15%;
 }
@@ -98,13 +98,15 @@ a {
   padding-bottom: 50px;
 }
 
-.hobbies-list img{
+.hobbies-list img {
   width: 300px;
   height: 200px;
   object-fit: cover;
 }
 
-.hr, .mtsu, .apsu{
+.hr,
+.mtsu,
+.apsu {
   display: inline-grid;
   grid-template-columns: auto auto;
 }
@@ -143,13 +145,17 @@ a {
   padding-bottom: 30px;
 }
 
-.experience, .education, .hobbies {
+.experience,
+.education,
+.hobbies {
   font-weight: bolder;
-  border: #A39493 2px solid;
+  border: #a39493 2px solid;
 }
 
-.Experience, .Education, .Hobbies {
-  background-color: #514A49;
+.Experience,
+.Education,
+.Hobbies {
+  background-color: #514a49;
   margin-left: 15%;
   margin-right: 15%;
 }
@@ -169,8 +175,8 @@ a {
 }
 
 .pr {
-  color: #EDECEA;
-  background-color: #514A49;
+  color: #edecea;
+  background-color: #514a49;
   margin: 50px 100px 0px;
   padding: 30px 0px 50px;
 }
@@ -179,11 +185,8 @@ a {
   margin-left: 25%;
 }
 
- video {
-max-width: 90%;
-display: block;
-margin: 0 auto;
+video {
+  max-width: 90%;
+  display: block;
+  margin: 0 auto;
 }
-
-
-
