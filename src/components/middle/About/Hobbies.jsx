@@ -17,7 +17,7 @@ function Hobbies() {
             src="https://open.spotify.com/embed/playlist/6yUp9EJsf0IeerrfUmHWTS?utm_source=generator" width="100%"
             height="380"
             frameBorder="0"
-            allowfullscreen=""
+            allowFullScreen=""
             allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
 
               <ul>

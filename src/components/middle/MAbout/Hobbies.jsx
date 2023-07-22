@@ -44,7 +44,7 @@ export default function Hobbies() {
           width='100%'
           height='380'
           frameBorder='0'
-          allowfullscreen=''
+          allowFullScreen=''
           allow='autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture'
         ></iframe>
         <Grid >
