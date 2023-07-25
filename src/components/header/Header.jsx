@@ -2,7 +2,7 @@ function Header({ page, setPage }) {
   return (
     <div className='Header'>
       <h1 className='name'>Alisha Barraw</h1>
-      <div class='nav'>
+      <div className='nav'>
         <span onClick={() => setPage('about')}>About</span>
         <span onClick={() => setPage('project')}>Projects</span>
         <span onClick={() => setPage('contact')}>Contact</span>
