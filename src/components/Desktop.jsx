@@ -1,39 +1,39 @@
-import React from 'react'
-import Header from './header/Header'
-import About from './middle/About/About'
-import Projects from './middle/Projects/Projects.jsx'
-import Contact from './middle/Contact.jsx'
+import React from "react";
+import Header from "./header/Header";
+import About from "./middle/About/About";
+import Projects from "./middle/Projects/Projects.jsx";
+import Contact from "./middle/Contact.jsx";
 
 class Desktop extends React.Component {
   constructor() {
-    super()
+    super();
     this.state = {
-      page: 'about',
-    }
-    this.setPage = this.setPage.bind(this)
+      page: "about",
+    };
+    this.setPage = this.setPage.bind(this);
   }
 
   setPage(e) {
-    this.setState({ page: e })
+    this.setState({ page: e });
   }
 
   render() {
-    let middle =
-      this.state.page === 'about' ? (
+    const middle =
+      this.state.page === "about" ? (
         <About />
-      ) : this.state.page === 'project' ? (
+      ) : this.state.page === "project" ? (
         <Projects />
-      ) : this.state.page === 'contact' ? (
+      ) : this.state.page === "contact" ? (
         <Contact />
-      ) : null
+      ) : null;
 
     return (
-      <div className='App'>
+      <div className="App">
         <Header page={this.state.page} setPage={this.setPage} />
         {middle}
       </div>
-    )
+    );
   }
 }
 
-export default Desktop
+export default Desktop;

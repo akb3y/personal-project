@@ -1,25 +1,25 @@
-import { useState } from 'react'
+import React, { useState } from "react";
 
 function Hobbies() {
-  const [isActive, setIsActive] = useState(false)
+  const [isActive, setIsActive] = useState(false);
 
   return (
-    <div className='Hobbies'>
-      <div className='accordion-item'>
-        <div className='accordion-title' onClick={() => setIsActive(!isActive)}>
-          <p className='hobbies'>Hobbies {isActive ? '-' : '+'}</p>
+    <div className="Hobbies">
+      <div className="accordion-item">
+        <div className="accordion-title" onClick={() => setIsActive(!isActive)}>
+          <p className="hobbies">Hobbies {isActive ? "-" : "+"}</p>
         </div>
         {isActive && (
-          <div className='hobbies-list'>
+          <div className="hobbies-list">
             <iframe
-              style={{ borderRadius: '12px' }}
-              title='Eurovision playlist'
-              src='https://open.spotify.com/embed/playlist/6yUp9EJsf0IeerrfUmHWTS?utm_source=generator'
-              width='100%'
-              height='380'
-              frameBorder='0'
-              allowFullScreen=''
-              allow='autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture'
+              style={{ borderRadius: "12px" }}
+              title="Eurovision playlist"
+              src="https://open.spotify.com/embed/playlist/6yUp9EJsf0IeerrfUmHWTS?utm_source=generator"
+              width="100%"
+              height="380"
+              frameBorder="0"
+              allowFullScreen=""
+              allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
             ></iframe>
 
             <ul>
@@ -32,12 +32,12 @@ function Hobbies() {
               </ul>
               <li>Playing with my dogs, Max & Ari</li>
               <img
-                src={require('../../../images/Max-on-doggy-bed.jpg')}
-                alt='Maximus'
+                src={require("../../../images/Max-on-doggy-bed.jpg")}
+                alt="Maximus"
               />
               <img
-                src={require('../../../images/Ari-with-tongue-out.jpg')}
-                alt='Maximus'
+                src={require("../../../images/Ari-with-tongue-out.jpg")}
+                alt="Maximus"
               />
               <li>Playing video games</li>
               <ul>
@@ -51,7 +51,7 @@ function Hobbies() {
         )}
       </div>
     </div>
-  )
+  );
 }
 
-export default Hobbies
+export default Hobbies;

@@ -1,14 +1,15 @@
+import React from "react";
 function Header({ page, setPage }) {
   return (
-    <div className='Header'>
-      <h1 className='name'>Alisha Barraw</h1>
-      <div className='nav'>
-        <span onClick={() => setPage('about')}>About</span>
-        <span onClick={() => setPage('project')}>Projects</span>
-        <span onClick={() => setPage('contact')}>Contact</span>
+    <div className="Header">
+      <h1 className="name">Alisha Barraw</h1>
+      <div className="nav">
+        <span onClick={() => setPage("about")}>About</span>
+        <span onClick={() => setPage("project")}>Projects</span>
+        <span onClick={() => setPage("contact")}>Contact</span>
       </div>
     </div>
-  )
+  );
 }
 
-export default Header
+export default Header;

@@ -190,3 +190,12 @@ video {
   display: block;
   margin: 0 auto;
 }
+
+.skills {
+  text-align: center;
+  list-style-type: none;
+}
+
+.mskills {
+  font-size: 20px;
+}

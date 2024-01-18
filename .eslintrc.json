@@ -11,5 +11,8 @@
   },
   "plugins": ["react", "jest"],
   "settings": {"version": "detect"},
-  "rules": {}
+  "rules": {
+    "require-jsdoc": "off",
+    "react/prop-types": "off"
+  }
 }

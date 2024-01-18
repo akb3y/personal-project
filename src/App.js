@@ -1,33 +1,34 @@
-import './App.css'
-import React from 'react'
-import Desktop from './components/Desktop.jsx'
-import Mobile from './components/Mobile.jsx'
+/* eslint-disable require-jsdoc */
+import "./App.css";
+import React from "react";
+import Desktop from "./components/Desktop.jsx";
+import Mobile from "./components/Mobile.jsx";
 
 class App extends React.Component {
   constructor() {
-    super()
+    super();
     this.state = {
       mobile: window.innerWidth <= 768,
-    }
+    };
   }
 
   componentDidMount() {
-    window.addEventListener('resize', this.handleWindowResize)
+    window.addEventListener("resize", this.handleWindowResize);
   }
 
   componentWillUnmount() {
-    window.removeEventListener('resize', this.handleWindowResize)
+    window.removeEventListener("resize", this.handleWindowResize);
   }
 
   handleWindowResize = () => {
-    this.setState({ mobile: window.innerWidth <= 768 })
-  }
+    this.setState({ mobile: window.innerWidth <= 768 });
+  };
 
   render() {
-    let view = this.state.mobile ? <Mobile /> : <Desktop />
+    const view = this.state.mobile ? <Mobile /> : <Desktop />;
 
-    return <>{view}</>
+    return <>{view}</>;
   }
 }
 
-export default App
+export default App;
